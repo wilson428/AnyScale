@@ -1,7 +1,9 @@
 import { select, selectAll, event } from 'd3-selection';
 import { transition, duration } from 'd3-transition';
+import { nanoid } from 'nanoid';
+import Vex from 'vexflow';
 
-function Scale(scale_number, root, prepend) {
+function Scale(container, scale_number, root, opts) {
 	const that = this;
 	that.id = nanoid();
 	that.root = root || "C";
