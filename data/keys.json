@@ -1,0 +1,19 @@
+{
+	"C":  [ 0, "flat"   ],
+	"C#": [ 1, "sharp"  ],
+	"Db": [ 1, "flat"   ],
+	"D":  [ 2, "sharp"  ],
+	"D#": [ 3, "sharp"  ],
+	"Eb": [ 3, "flat"   ],
+	"E":  [ 4, "sharp"  ],
+	"F":  [ 5, "flat"  ],
+	"F#": [ 6, "sharp" ],
+	"Gb": [ 6, "flat"  ],
+	"G":  [ 7, "sharp"  ],
+	"G#": [ 8, "sharp"  ],
+	"Ab": [ 8, "flat"   ],
+	"A":  [ 9, "sharp"  ],
+	"A#": [ 10, "sharp"  ],
+	"Bb": [ 10, "flat"   ],
+	"B":  [ 11, "sharp"  ]
+}

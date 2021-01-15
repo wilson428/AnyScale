@@ -1,14 +1,17 @@
 {
-  "name": "anyscale",
+  "name": "Every-Scale",
   "version": "0.0.1",
   "description": "Generate any possible scale in HTML/JS and play it!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "bundle-module --entry=./browser.js --name=Scale --filename=EveryScale --output_dir=./dist",
+    "build_verbose": "bundle-module --entry=./browser.js --name=Scale --filename=EveryScale --output_dir=./dist --verbose",
+    "minify": "bundle-module --entry=./browser.js --name=Scale --filename=EveryScale --output_dir=./dist --min",
+    "watch": "bundle-module --entry=./browser.js --name=Scale --filename=EveryScale --output_dir=./dist --watch"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wilson428/AnyScale.git"
+    "url": "git+https://github.com/wilson428/Every-Scale.git"
   },
   "keywords": [
     "music",
@@ -18,13 +21,16 @@
   "author": "Chris Wilson",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wilson428/AnyScale/issues"
+    "url": "https://github.com/wilson428/Every-Scale/issues"
   },
-  "homepage": "https://github.com/wilson428/AnyScale#readme",
+  "homepage": "https://github.com/wilson428/Every-Scale#readme",
   "dependencies": {
     "d3-selection": "^2.0.0",
     "d3-transition": "^2.0.0",
     "nanoid": "^3.1.20",
     "vexflow": "^3.0.9"
+  },
+  "devDependencies": {
+    "minimist": "^1.2.5"
   }
 }

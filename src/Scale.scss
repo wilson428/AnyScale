@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@1&display=swap');
+
+$green: #2ed22e;
+
+:export {
+	green: $green;
+}
+
+.scale {
+	position: relative;
+	margin: 10px 0;
+	border: 1px solid #CCC;
+	border-radius: 5px;
+	padding: 10px 0;
+	max-width: 800px;
+	font-family: Arial, san-serif;
+
+	/*
+	.play_button {
+		position: absolute;
+		font-size: 60px;
+		top: 7px;
+		left: 10px;
+		color: $green;
+	}
+	*/
+
+	.scale_render {
+		text-align: center;
+		margin: 0 auto;
+		position: relative;
+
+		/*
+		background-image: url("../img/parchment_light.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+		*/
+	}
+
+	.scale_header {
+		text-align: left;
+		position: relative;
+	}
+
+	.play_button {
+		position: absolute;
+		font-size: 60px;
+		line-height: 30px;
+		top: 0;
+		left: 15px;
+		cursor: pointer;
+	}
+
+	.scale_title {
+		font-size: 30px;
+		font-family: 'IM Fell English', serif;
+		left: 60px;
+		top: 4px;
+		line-height: 30px;
+		position: relative;
+		display: inline-block;
+	}
+
+	.bracket {
+		stroke: #808080;
+		stroke-width: 1px;
+		fill: none;
+	}
+
+	.intervalNumber {
+		text-anchor: "middle";
+		font-family: "Courier New", sans-serif;
+		font-size: 12px;
+	}
+}
+
+.scale_details {
+	font-style: italic;
+	font-size: 20px;
+	margin-top: 5px;
+	margin-left: 10px;
+}
